@@ -1,4 +1,4 @@
-# 📦 Inventory Management System
+#  Inventory Management System
 
 ## Course Information
 - **Course Code:** SENG 232  
@@ -8,7 +8,7 @@
 
 ---
 
-## 📖 Project Overview
+##  Project Overview
 This project implements an **Inventory Management System** using fundamental **data structures** concepts.  
 The system efficiently manages inventory items by utilizing a **Hash Table** for fast access and **Linked Lists** to handle collisions through chaining.
 
@@ -16,7 +16,7 @@ A **console-based interface** is provided to allow users to interact with the sy
 
 ---
 
-## 🎯 Project Objectives
+##  Project Objectives
 - Demonstrate practical use of **Hash Tables**
 - Apply **Linked Lists** for collision handling
 - Implement **sorting and searching algorithms**
@@ -25,7 +25,7 @@ A **console-based interface** is provided to allow users to interact with the sy
 
 ---
 
-## 🧱 System Architecture
+## System Architecture
 
 ### 1️⃣ Item
 Represents an inventory item with the following attributes:
@@ -92,23 +92,6 @@ Represents an inventory item with the following attributes:
 This design ensures efficient access while handling collisions safely.
 
 ---
-
-## ⏱ Time Complexity Analysis
-
-The following table summarizes the average time complexity of the main operations in the system:
-
-| Operation                  | Average Time Complexity |
-|---------------------------|-------------------------|
-| Insert Item               | O(1)                    |
-| Search by SKU             | O(1)                    |
-| Delete Item               | O(1)                    |
-| Sort Items (Price/Qty)    | O(n log n)              |
-| Search by Name / Category | O(n)                    |
-
-**Notes:**
-- Insert, search, and delete operations achieve **O(1)** average time due to the use of a hash table.
-- Sorting operations run in **O(n log n)** time using comparison-based sorting.
-- Searching by name or category requires scanning all items, resulting in **O(n)** time complexity.
 
 ## 👥 Team Members
 
