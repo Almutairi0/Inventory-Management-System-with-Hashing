@@ -93,27 +93,6 @@ This design ensures efficient access while handling collisions safely.
 
 ---
 
-## 🗂 Project Structure
-
-InventoryManagementSystem/
-├── src/
-│   ├── Item.java
-│   ├── Node.java
-│   ├── LinkedList.java
-│   ├── HashTable.java
-│   ├── SortingSearching.java
-│   ├── InventoryManager.java
-│   └── Main.java
-│
-├── docs/
-│   ├── UML.png
-│
-│
-│
-├── Makefile
-├── README.md
-└── .gitignore
-
 ## ⏱ Time Complexity Analysis
 
 The following table summarizes the average time complexity of the main operations in the system:
@@ -133,13 +112,13 @@ The following table summarizes the average time complexity of the main operation
 
 ## 👥 Team Members
 
-- **Abdullah Almutairi** – Lead Developer  
+- **[Abdullah Almutairi](https://github.com/Almutairi0)** – Lead Developer  
   - System architecture design  
   - HashTable implementation  
   - Sorting & Searching integration  
   - System testing and integration  
 
-- **Muteb Alrashdan** – Data Structures Engineer  
+- **[Muteb Alrashdan](https://github.com/mt3bsr)** – Data Structures Engineer  
   - LinkedList and Node implementation  
   - Collision handling using chaining  
 
