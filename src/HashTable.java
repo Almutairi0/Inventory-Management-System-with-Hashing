@@ -49,4 +49,12 @@ public class HashTable {
 		}
 	}
 
+	public int getSize() {
+		return size;
+	}
+
+	public LinkedList getBucket(int index) {
+		return buckets[index];
+	}
+
 }
