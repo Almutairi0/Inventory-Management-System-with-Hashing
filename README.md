@@ -17,11 +17,8 @@ A **console-based interface** is provided to allow users to interact with the sy
 ---
 
 ##  Project Objectives
-- Demonstrate practical use of **Hash Tables**
-- Apply **Linked Lists** for collision handling
-- Implement **sorting and searching algorithms**
-- Design a simple **console-based UI**
-- Build a complete, testable system using data structures
+- Create a system to manage inventory items using hash tables and linked lists for dynamic storage
+and fast access.
 
 ---
 
